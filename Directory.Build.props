@@ -16,11 +16,12 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/mellinoe/veldrid/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright 2020 (c) Eric Mellino. All rights reserved.</Copyright>
-    <Authors>Eric Mellino</Authors>
-    <RepositoryUrl>https://github.com/mellinoe/veldrid</RepositoryUrl>
+    <Copyright>Copyright 2025 (c) Eric Mellino and Veldrid contributors.</Copyright>
+    <Authors>Eric Mellino; tx-code</Authors>
+    <RepositoryUrl>https://github.com/tx-code/veldrid</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/tx-code/veldrid</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -34,13 +35,6 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-
   <PropertyGroup>
     <NerdbankGitVersioningVersion>3.4.255</NerdbankGitVersioningVersion>
   </PropertyGroup>

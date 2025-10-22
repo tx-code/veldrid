@@ -1,4 +1,4 @@
-﻿using NativeLibraryLoader;
+﻿using NativeLibrary = NativeLibraryLoader.NativeLibrary;
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;

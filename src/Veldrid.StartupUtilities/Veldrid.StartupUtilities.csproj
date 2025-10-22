@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <PackageVersion>$(AssemblyVersion)</PackageVersion>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>12.0</LangVersion>
     <DefineConstants Condition="'$(ExcludeD3D11)' == 'true'">$(DefineConstants);EXCLUDE_D3D11_BACKEND</DefineConstants>
     <DefineConstants Condition="'$(ExcludeVulkan)' == 'true'">$(DefineConstants);EXCLUDE_VULKAN_BACKEND</DefineConstants>
     <DefineConstants Condition="'$(ExcludeMetal)' == 'true'">$(DefineConstants);EXCLUDE_METAL_BACKEND</DefineConstants>

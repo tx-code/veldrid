@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Veldrid</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>12.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
