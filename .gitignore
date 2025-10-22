@@ -260,4 +260,5 @@ Session.vim
 launchSettings.json
 
 # Generated shaders
-Shaders.Generated
+Shaders.Generated# IDE settings
+src/.idea/
