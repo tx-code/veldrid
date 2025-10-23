@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageVersion>$(AssemblyVersion)</PackageVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Veldrid\Veldrid.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Description>Miscellaneous utility functions useful for Veldrid.</Description>
+    <PackageTags>Core Standard Game Graphics</PackageTags>
+  </PropertyGroup>
+
+</Project>
